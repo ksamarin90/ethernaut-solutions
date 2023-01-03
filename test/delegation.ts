@@ -40,8 +40,6 @@ describe("Ethernaut - Delegation", async () => {
       gasLimit: 100000,
     });
 
-    console.log(owner.address);
-
     expect(await delegation.owner()).equal(attacker.address);
   });
 });
