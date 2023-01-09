@@ -1,7 +1,7 @@
 import { SignerWithAddress } from "@nomiclabs/hardhat-ethers/signers";
 import { expect } from "chai";
 import { ethers } from "hardhat";
-import { Vault } from "typechain-types/Vault";
+import { Vault } from "typechain-types";
 
 // Challenge description
 // Unlock the vault to pass the level!

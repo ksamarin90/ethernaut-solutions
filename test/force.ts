@@ -3,7 +3,7 @@ import { SignerWithAddress } from "@nomiclabs/hardhat-ethers/signers";
 import { expect } from "chai";
 import { ethers } from "hardhat";
 import { toWei } from "scripts/utils";
-import { ForceAttacker } from "typechain-types/ForceAttacker";
+import { ForceAttacker } from "typechain-types";
 
 // Challenge description
 
